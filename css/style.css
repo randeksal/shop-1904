@@ -1,0 +1,255 @@
+:root {
+    --dark-blue: #222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --brown: #474040;
+}
+
+body {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 10px 0 0;
+}
+
+.header__account-link {
+    margin: 0 34px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+    border-left: 12px solid var(--dark-pink);
+}
+
+.brand__title-wrapper {
+    padding: 0 0 0 91px;
+    background-color: var(--pink);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.brand__subtitle {
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__item {
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+}
+
+.offers__item--women {
+    background-image: url(../img/offers-women.jpg);
+}
+
+.offers__item--man {
+    background-image: url(../img/offers-man.jpg);
+}
+
+.offers__item--kids {
+    background-image: url(../img/offers-kids.jpg);
+}
+
+.offers__item--accesories {
+    background-image: url(../img/offers-accesories.jpg);
+    width: 100%;
+    margin: 0;
+}
+
+.offers__item--link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.offers__item--text {
+    color: white;
+    text-transform: uppercase;
+}
+
+.offers__item--text--pink {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--dark-pink);
+}
+
+.recommendations__title {
+    text-align: center;
+    margin-top: 97px;
+    font-size: 30px;
+    color: #222222;
+}
+
+.recommendations__subtitle {
+    text-align: center;
+    margin: 6px 0 33px;
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.recommendations__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommendations__items {
+    width: 360px;
+    height: 581px;
+    background-color: #f8f8f8;
+    margin: 15px 0 15px;
+}
+
+.recommendations__items--img {
+    /* position: absolute; */
+}
+
+.recommendations__items--img--hover {
+    /* position: relative; */
+}
+
+.recommendations__items--img--wrapper {
+    
+}
+
+.recommendations__items--wrapper {
+    margin: 25px 0 0 18px;
+}
+
+.recommendations__items--subtitle {
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.recommendations__items--text {
+    font-size: 14px;
+    color: #5D5D5D;
+    margin-bottom: 18px;
+}
+
+.recommendations__items--price {
+    font-size: 16px;
+    color: var(--dark-pink);
+}
+
+.recommendations__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    margin: 30px auto;
+    text-decoration: none;
+    color: var(--dark-pink);
+}
+
+.advantages {
+    width: 100%;
+    background-color: #222224;
+}
+
+.advantages__list {
+    height: 341px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.advantages__items {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.advantages__items-img {
+
+}
+
+.advantages__items-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fbfbfb;
+}
+
+.advantages__items-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #fbfbfb;
+}

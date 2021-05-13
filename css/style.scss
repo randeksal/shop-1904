@@ -1,0 +1,381 @@
+@import './varables';
+@import './mixins';
+@import './extend';
+@import './reset';
+@import './general';
+@import './header';
+@import './brand';
+@import './offers';
+@import './recommendations';
+
+.basket  {
+    border-radius: 19px;
+    align-items: center;
+    background-color: #f16d7f;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 18px;
+    justify-content: center;
+    left: 21px;
+    line-height: 20px;
+    width: 10px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.burger-img {
+    cursor: pointer;
+}
+
+.img-product-1,
+.btn-product-1,
+.img-product-2,
+.btn-product-2,
+.img-product-3,
+.btn-product-3,
+.img-product-4,
+.btn-product-4,
+.img-product-5,
+.btn-product-5,
+.img-product-6,
+.btn-product-6 {
+    opacity: 0;
+}
+
+.product-1:hover .img-product-1 {
+    opacity: 1;
+}
+
+.product-1:hover .btn-product-1 {
+    opacity: 1;
+}
+
+.product-2:hover .img-product-2 {
+    opacity: 1;
+}
+
+.product-2:hover .btn-product-2 {
+    opacity: 1;
+}
+
+.product-3:hover .img-product-3 {
+    opacity: 1;
+}
+
+.product-3:hover .btn-product-3 {
+    opacity: 1;
+}
+
+.product-4:hover .img-product-4 {
+    opacity: 1;
+}
+
+.product-4:hover .btn-product-4 {
+    opacity: 1;
+}
+
+.product-5:hover .img-product-5 {
+    opacity: 1;
+}
+
+.product-5:hover .btn-product-5 {
+    opacity: 1;
+}
+
+.product-6:hover .img-product-6 {
+    opacity: 1;
+}
+
+.product-6:hover .btn-product-6 {
+    opacity: 1;
+}
+
+.advantages {
+    width: 100%;
+    background-color: #222224;
+}
+
+.advantages__list {
+    height: 341px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.advantages__items {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.advantages__items-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fbfbfb;
+}
+
+.advantages__items-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #fbfbfb;
+}
+
+.subscribe {
+    width: 100%;
+    min-height: 448px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/subscribe.jpg);
+}
+
+.subscribe__list {
+    height: 448px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__items {
+    width: 360px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__items-comment {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subscribe__items-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.subscribe__items-text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.subscribe__items-form {
+    padding-top: 30px;
+    display: flex;
+}
+
+.subscribe__items-input {
+    width: 230px;
+    height: 44px;
+    background-color: #e1e1e1;
+    border-radius: 23px 0px 0px 23px;
+    border-color: transparent;
+    opacity: 0.67;
+    font-size: 14px;
+    color: #222224;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.subscribe__items-input:hover {
+    background-color: #d4d0d0;
+}
+
+.subscribe__items-button {
+    width: 104px;
+    height: 49px;
+    background-color: #f16d7f;
+    border-radius: 0px 23px 23px 0px;
+    border-color: transparent;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.subscribe__items-button:hover {
+    color: #000;
+}
+
+.footer {
+    height: 79px;
+    background: #222224;
+}
+
+.footer__list {
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+.footer__text:hover {
+    color: $dark-pink;
+}
+
+.footer__items {
+    display: flex;
+}
+
+.footer__social-links {
+    background-color: white;
+    margin-left: 8px;
+}
+
+.footer__social-links-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__social-links-button:hover {
+    background-color: $dark-pink;
+    color: white;
+}
+
+.footer__social-links-button:active {
+    background-color: gray;
+}
+
+.registration {
+    height: 675px;
+    padding: 64px 0;
+    display: flex;
+}
+
+.registration__form {
+    width: 400px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__form-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+}
+
+.registration__form--radio-text {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+}
+
+.registration__form--radio-box:hover .registration__form--radio-text {
+    color: $dark-pink;
+}
+
+.registration__form-name {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+}
+
+.registration__form-tip {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    padding: 25px 0;
+}
+
+.registration__form--button {
+    width: 167px;
+    height: 50px;
+    background-color: $dark-pink;
+    border-radius: 0px;
+    border-color: transparent;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.registration__form--button:hover {
+    background-color: #fff;
+    border-color: $dark-pink;
+}
+
+.registration__form--button:hover .registration__form--button-text {
+    color: $dark-pink;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.registration__form--button-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.radio-input__wrapper {
+    padding: 33px 0;
+}
+
+.registration__form-email {
+    margin: 25px 0;
+}
+
+.registration__forms {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    padding: 12px 17px;
+}
+
+.registration__forms:hover {
+    font-weight: 700;
+}
+
+.registration__right-block {
+    padding-left: 120px;
+
+}
+
+.registration__right-block_text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.registration__right-block_text_padding {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

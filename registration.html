@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,12 +15,12 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__controls">
-                    <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
+                    <a href="./index.html"><img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38"></a>
                     <a href="#"><img src="img/loupe.svg" alt="loupe" width="26" height="27"></a>
                 </div>
                 <div class="header__controls">
                     <button class="header__button" type="button">
-                        <img src="img/burger.svg" alt="burger" width="32" height="23">
+                        <img class="burger-img"  src="img/burger.svg" alt="burger" width="32" height="23">
                     </button>
                     <a class="header__account-link" href="#"><img src="img/account.png" alt="account" width="29" height="29"></a>
                     <a class="header__controls__basket" href="#"><img src="img/basket.png" alt="basket" width="32" height="23"><span class="basket">5</span></a>
@@ -65,8 +64,8 @@
         </nav>
     </header>
     <main>
-        <section class="header-line">
-            <h2 class="header-line__text container">REGISTRATION</h2>
+        <section class="header__line">
+            <h2 class="header__line-text container">REGISTRATION</h2>
         </section>
         <section class="registration container">
             <form class="registration__form" action="endpoint">
@@ -74,11 +73,11 @@
                     <input class="registration__form-name registration__forms" type="text" id="registration-name" placeholder="First Name">
                     <input class="registration__form-name registration__forms" type="text" id="registration-name" placeholder="Last Name">
                 <div class="radio-input__wrapper">
-                    <label>
+                    <label class="registration__form--radio-box">
                         <input class="registration__form--radio" type="radio" name="radio-button" value="radio-button">
                         <span class="registration__form--radio-text">Male</span>
                     </label>
-                    <label>
+                    <label class="registration__form--radio-box">
                         <input class="registration__form--radio" type="radio" name="radio-button" value="radio-button">
                         <span class="registration__form--radio-text">Female</span>
                     </label>
@@ -95,11 +94,11 @@
             <div class="registration__right-block">
                 <p class="registration__right-block_text">LOYALTY HAS ITS PERKS</p>
                 <p class="registration__right-block_text">Get in on the loyalty program where you can earn points and<br> unlock serious perks. Starting with these as soon as you join:</p>
-                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text">15% off welcome offer</span></p>
-                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text">Free shipping, returns and exchanges on all orders</span></p>
-                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text">$10 off a purchase on your birthday</span></p>
-                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text">Early access to products</span></p>
-                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text">Exclusive offers & rewards</span></p>
+                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text"> 15% off welcome offer</span></p>
+                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text"> Free shipping, returns and exchanges on all orders</span></p>
+                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text"> $10 off a purchase on your birthday</span></p>
+                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text"> Early access to products</span></p>
+                <p class="registration__right-block_text_padding"><img src="img/check.png" alt="check"><span class="registration__right-block_text"> Exclusive offers & rewards</span></p>
             </div>
         </section>
     </main>

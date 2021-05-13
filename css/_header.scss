@@ -1,0 +1,43 @@
+.header {
+    background-color: $dark-blue;
+}
+
+.header__wrapper {
+    min-height: 75px;
+    @include flex-center-space-between();
+}
+
+.header__controls__basket {
+    position: relative;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 40px 0 0;
+}
+
+.header__account-link {
+    margin: 0 34px 0 0;
+}
+
+.header__line {
+    height: 148px;
+    background: #F8F3F4;
+}
+
+.header__line-text {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: $dark-pink;
+    padding-top: 55px;
+}

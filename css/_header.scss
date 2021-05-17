@@ -41,3 +41,53 @@
     color: $dark-pink;
     padding-top: 55px;
 }
+
+.basket  {
+    border-radius: 19px;
+    align-items: center;
+    background-color: #f16d7f;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 18px;
+    justify-content: center;
+    left: 21px;
+    line-height: 20px;
+    width: 10px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.burger-img {
+    cursor: pointer;
+}
+
+@media (max-width: $max-tablet-width) {
+    .header__button {
+        margin: 0 24px 0 0;
+    }
+    .header__account-link {
+        margin: 0 24px 0 0;
+    }
+}
+
+@media (max-width: $max-mobile-width) {
+    .header__button {
+        margin: 0;
+    }
+    .header__account-link {
+        margin: 0;
+    }
+    .header__account-link {
+        display: none;
+    }
+    .header__controls__basket {
+        display: none;
+    }
+}

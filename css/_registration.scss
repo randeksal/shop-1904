@@ -1,0 +1,123 @@
+.registration {
+    height: 675px;
+    padding: 64px 0;
+    display: flex;
+}
+
+.registration__form {
+    width: 400px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__form-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+}
+
+.registration__form--radio-text {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+}
+
+.registration__form_radio:hover .registration__form--radio-text {
+    color: $dark-pink;
+}
+
+.registration__form-name {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+}
+
+.registration__form-tip {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    padding: 25px 0;
+}
+
+.registration__form--button {
+    width: 167px;
+    height: 50px;
+    background-color: $dark-pink;
+    border-radius: 0px;
+    border-color: transparent;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.registration__form--button:hover {
+    background-color: #fff;
+    border-color: $dark-pink;
+}
+
+.registration__form--button:hover .registration__form--button-text {
+    color: $dark-pink;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.registration__form--button-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.registration__wrapper {
+    padding: 33px 0;
+}
+
+.registration__form-email {
+    margin: 25px 0;
+}
+
+.registration__forms {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    padding: 12px 17px;
+}
+
+.registration__forms:hover {
+    font-weight: 700;
+}
+
+.registration__right-block {
+    padding-left: 120px;
+
+}
+
+.registration__right-block_text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.registration__right-block_text_padding {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.registration__right-block_text_padding::before {
+    content: "";
+    background: url('../img/check.png') no-repeat 50%;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    margin-top: 7px;
+}

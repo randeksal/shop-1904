@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/lato/lato-bold.woff) format("woff"), url(../fonts/lato/lato-bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,7 +55,7 @@ table {
 }
 
 body {
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -116,6 +123,15 @@ body {
 
 .header__logo {
   margin: 0 40px 0 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header__logo:active {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .header__account-link {
@@ -140,7 +156,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #f16d7f;
+  background-color: #F16D7F;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,6 +205,30 @@ body {
   .header__controls__basket {
     display: none;
   }
+}
+
+.header__account-img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header__account-img:active {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.header__basket-img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header__basket-img:active {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .brand {
@@ -258,20 +298,48 @@ body {
 
 .offers__list .offers__item--women {
   background-image: url(../img/offers-women.jpg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.offers__list .offers__item--women:hover {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
 }
 
 .offers__list .offers__item--man {
   background-image: url(../img/offers-man.jpg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.offers__list .offers__item--man:hover {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
 }
 
 .offers__list .offers__item--kids {
   background-image: url(../img/offers-kids.jpg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.offers__list .offers__item--kids:hover {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
 }
 
 .offers__list .offers__item--accesories {
   background-image: url(../img/offers-accesories.jpg);
   width: 100%;
   margin: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.offers__list .offers__item--accesories:hover {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
 }
 
 .offers__list .offers__item--link {
@@ -625,16 +693,24 @@ body {
   color: #222224;
   padding-left: 28px;
   padding-right: 28px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .subscribe__items-input:hover {
   background-color: #d4d0d0;
+  font-size: 17px;
+}
+
+.subscribe__items-input:focus {
+  border: 3px;
+  border-color: #F16D7F;
 }
 
 .subscribe__items-button {
   width: 104px;
   height: 49px;
-  background-color: #f16d7f;
+  background-color: #F16D7F;
   border-radius: 0px 23px 23px 0px;
   border-color: transparent;
   font-size: 14px;
@@ -720,11 +796,15 @@ body {
           align-items: center;
   text-decoration: none;
   color: #000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .footer__social-links-button:hover {
   background-color: #F16D7F;
   color: white;
+  -webkit-transform: rotatey(360deg);
+          transform: rotatey(360deg);
 }
 
 .footer__social-links-button:active {

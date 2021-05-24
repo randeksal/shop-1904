@@ -12,21 +12,42 @@
     
     .offers__item--women {
         background-image: url(../img/offers-women.jpg);
+        transition: 0.4s;
+    }
+
+    .offers__item--women:hover {
+        transform: scale(1.16);
     }
     
     .offers__item--man {
         background-image: url(../img/offers-man.jpg);
+        transition: 0.4s;
+    }
+
+    .offers__item--man:hover {
+        transform: scale(1.16);
     }
     
     .offers__item--kids {
         background-image: url(../img/offers-kids.jpg);
+        transition: 0.4s;
+    }
+
+    .offers__item--kids:hover {
+        transform: scale(1.16);
     }
     
     .offers__item--accesories {
         background-image: url(../img/offers-accesories.jpg);
         width: 100%;
         margin: 0;
+        transition: 0.4s;
     }
+
+    .offers__item--accesories:hover {
+        transform: scale(1.16);
+    }
+    
     
     .offers__item--link {
         width: 100%;

@@ -23,6 +23,12 @@
 
 .header__logo {
     margin: 0 40px 0 0;
+    transition: 0.4s;
+}
+
+.header__logo:active {
+    transform: rotate(-360deg);
+    transition-duration: 0.3s;
 }
 
 .header__account-link {
@@ -45,7 +51,7 @@
 .basket  {
     border-radius: 19px;
     align-items: center;
-    background-color: #f16d7f;
+    background-color: $dark-pink;
     color: #fff;
     display: flex;
     font-size: 12px;
@@ -90,4 +96,22 @@
     .header__controls__basket {
         display: none;
     }
+}
+
+.header__account-img {
+    transition: 0.4s;
+}
+
+.header__account-img:active {
+    transform: rotate(-360deg);
+    transition-duration: 0.3s;
+}
+
+.header__basket-img {
+    transition: 0.4s;
+}
+
+.header__basket-img:active {
+    transform: rotate(-360deg);
+    transition-duration: 0.3s;
 }

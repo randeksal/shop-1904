@@ -40,11 +40,13 @@
     align-items: center;
     text-decoration: none;
     color: #000;
+    transition: 0.2s;
 }
 
 .footer__social-links-button:hover {
     background-color: $dark-pink;
     color: white;
+    transform: rotatey(360deg);
 }
 
 .footer__social-links-button:active {

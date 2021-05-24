@@ -59,16 +59,23 @@
     color: #222224;
     padding-left: 28px;
     padding-right: 28px;
+    transition: 0.2s;
 }
 
 .subscribe__items-input:hover {
     background-color: #d4d0d0;
+    font-size: 17px;
+}
+
+.subscribe__items-input:focus {
+    border: 3px;
+    border-color: #F16D7F;
 }
 
 .subscribe__items-button {
     width: 104px;
     height: 49px;
-    background-color: #f16d7f;
+    background-color: $dark-pink;
     border-radius: 0px 23px 23px 0px;
     border-color: transparent;
     font-size: 14px;

@@ -1,0 +1,252 @@
+.cart-block {
+    width: 1599px;
+    height: 998px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-block--padding {
+    padding: 96px 0 0 0;
+}
+
+.cart-left {
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-products {
+    width: 652px;
+    height: 306px;
+    display: flex;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+
+.cart-products--margin-bot {
+    margin-bottom: 40px;
+}
+
+.cart-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cart-text--padding {
+    margin: 22px 0 0 31px;
+}
+
+.cart-text--text-padding {
+    padding-bottom: 6px;
+}
+
+.cart-text__title {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28.8px;
+    padding-bottom: 42px;
+}
+
+// .cart-text__price {
+
+// }
+
+.cart-text__price-title {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+}
+
+.cart-text__price-cost {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+    color: $dark-pink;
+}
+
+// .cart-text__color {
+
+// }
+
+.cart-text__color-title {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+    color: $dark-pink;
+}
+
+.cart-text__color-value {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+}
+
+// .cart-text__size {
+
+// }
+
+.cart-text__size-title {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+}
+
+.cart-text__size-value {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+}
+
+.cart-text__quantity {
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+}
+
+.cart-text__quantity-value {
+    width: 27px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #EAEAEA;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26.4px;
+    padding-left: 13px;
+    position: absolute;
+    top: 194px;
+    left: 120px;
+}
+
+.cart-text__delete-btn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: transparent;
+    background-color: transparent;
+    top: 5px;
+    left: 320px;
+    cursor: pointer;
+}
+
+.cart-block_buttons {
+    width: 235px;
+    height: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.cart-block_buttons-margin {
+    margin: 72px 0 0 0;
+}
+
+.cart-block_button-padding {
+    margin-left: 178px;
+}
+
+.cart-right {
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-right--padding {
+    margin-left: 128px;
+}
+
+.cart-delivery {
+    width: 360px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-delivery__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.cart-delivery__input {
+    width: 360px;
+    height: 45px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    border: 1px solid #A4A4A4;
+    background-color: #fff;
+    text-align: left;
+    padding-left: 6.5px;
+    margin-top: 20px;
+}
+
+.cart-delivery__btn {
+    width: 101.41px;
+    height: 35px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13px;
+    border: 1px solid #A4A4A4;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 23.5px;
+}
+
+.cart-total {
+    width: 277px;
+    height: 160px;
+    background-color: #f5f3f3;
+    padding: 30px 43px 43px 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cart-total--padding {
+    margin-top: 40px;
+}
+
+.cart-total__text-sub {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    padding: 12px 0 12px 0;
+}
+
+.cart-total__text-grand {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 21px;
+}
+
+.cart-total__grand-cost {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    color: $dark-pink;
+}
+
+.cart-total__btn {
+    width: 273px;
+    height: 50px;
+    background: $dark-pink;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    color: #fff;
+    margin-top: 17px;
+    cursor: pointer;
+}

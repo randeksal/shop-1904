@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <title>Cart</title>
+    <title>Product</title>
 </head>
 <body>
     <header class="header">
@@ -58,61 +58,94 @@
                                 </li>
                             </ul>
                         </nav>
+
+
                     </button>
                     <a class="header__account-link" href="./cart.html"><img class="header__account-img" src="img/account.png" alt="account" width="29" height="29"></a>
                     <a class="header__controls__basket" href="./cart.html"><img class="header__basket-img" src="img/basket.png" alt="basket" width="32" height="23"><span class="basket">5</span></a>
                 </div>
             </div>
         </div>
+        
     </header>
     <main>
         <section class="header__line">
-            <h2 class="header__line-text container">SHOPPING CART</h2>
+            <h2 class="header__line-text container bread-crumbs_wrp">NEW ARRIVALS
+                <span class="bread-crumbs">
+                    <a class="bread-crumbs__text" href="index.html">HOME </a>
+                    <span class="bread-crumbs__text">/ </span>
+                    <a class="bread-crumbs__text" href="#">MEN </a>
+                    <span class="bread-crumbs__text">/ </span>
+                    <a class="bread-crumbs__text bread-crumbs__text-n" href="#">NEW ARRIVALS </a>
+                </span>
+            </h2>
         </section>
-        <section class="cart-block cart-block--padding container">
-            <div class="cart-left">
-                <div class="cart-products cart-products--margin-bot">
-                    <img class="img-33" src="./img/product-33.jpg" width="262" height="306" alt="product-33">
-                    <div class="cart-text cart-text--padding">
-                        <span class="cart-text__title cart-text--text-padding">MANGO  PEOPLE<br>T-SHIRT</span>
-                        <span class="cart-text__price cart-text--text-padding"><span class="cart-text__price-title">Price: </span><span class="cart-text__price-cost">$300</span></span>
-                        <span class="cart-text__color cart-text--text-padding"><span class="cart-text__color-title">Color: </span><span class="cart-text__color-value">Red</span></span>
-                        <span class="cart-text__size cart-text--text-padding"><span class="cart-text__size-title">Size: </span><span class="cart-text__size-value">XL</span></span>
-                        <span class="cart-text__quantity cart-text--text-padding">Quantity: </span>
-                        <input class="cart-text__quantity-value" type="number" min="1" max="100" value="2">
-                        <button class="cart-text__delete-btn"><img class="cart-text__delete-img" src="./img/cross.png" alt="cross"></button>
-                    </div>
-                </div>
-                <div class="cart-products">
-                    <img class="img-34" src="./img/product-34.jpg" alt="product-34">
-                    <div class="cart-text cart-text--padding">
-                        <span class="cart-text__title cart-text--text-padding">MANGO  PEOPLE<br>T-SHIRT</span>
-                        <span class="cart-text__price cart-text--text-padding"><span class="cart-text__price-title">Price: </span><span class="cart-text__price-cost">$300</span></span>
-                        <span class="cart-text__color cart-text--text-padding"><span class="cart-text__color-title">Color: </span><span class="cart-text__color-value">Red</span></span>
-                        <span class="cart-text__size cart-text--text-padding"><span class="cart-text__size-title">Size: </span><span class="cart-text__size-value">XL</span></span>
-                        <span class="cart-text__quantity cart-text--text-padding">Quantity: </span>
-                        <span class="cart-text__quantity-value">2</span>
-                        <button class="cart-text__delete-btn"><img class="cart-text__delete-img" src="./img/cross.png" alt="cross"></button>
-                    </div>
-                </div>
-                <div><button class="cart-block_buttons cart-block_buttons-margin">CLEAR SHOPPING CART</button>
-                    <button class="cart-block_buttons cart-block_button-padding">CONTINUE SHOPPING</button></div>
+        <section class="product-option">
+            <button class="product-option__arrow"></button>
+            <a class="product-option__img" href="#"><img src="./img/product-7.png" alt="product-7"></a>
+            <button class="product-option__arrow product-option__arrow-r"></button>
+        </section>
+        <section class="product-details container">
+            <h3 class="product-details__title1">WOMEN COLLECTION</h3>
+            <button class="product-details__btn1"></button>
+            <h3 class="product-details__title2">MOSCHINO CHEAP AND CHIC</h3>
+            <p class="product-details__text">Compellingly actualize fully researched processes before proactive outsourcing.<br>Progressively syndicate collaborative architectures before cutting-edge services. Completely<br>visualize parallel core competencies rather than exceptional portals. </p>
+            <span class="product-details__price">$561</span>
+            <div class="product-customization">
+                <span><span class="product-customization__text product-customization__text-c">CHOOSE COLOR</span><span></span></span>
+                <span><span class="product-customization__text product-customization__text-s">CHOOSE SIZE </span><span></span></span>
+                <span><span class="product-customization__text product-customization__text-q">QUANTITY</span><span></span></span>
             </div>
-            <div class="cart-right cart-right--padding">
-                <div class="cart-delivery">
-                    <span class="cart-delivery__title">SHIPPING ADRESS</span>
-                    <input class="cart-delivery__input cart-delivery__nation" type="text" placeholder="Bangladesh">
-                    <input class="cart-delivery__input cart-delivery__state" type="text" placeholder="State">
-                    <input class="cart-delivery__input cart-delivery__post" type="text" placeholder="Postcode / Zip">
-                    <button class="cart-delivery__btn">GET A QUOTE</button>
-                </div>
-                <div class="cart-total cart-total--padding">
-                    <span class="cart-total__text-sub"><span class="cart-total__sub-title">SUB TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="cart-total__sub-cost">$900</span></span>
-                    <span class="cart-total__text-grand"><span class="cart-total__grand-title">GRAND TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="cart-total__grand-cost">$900</span></span>
-                    <hr width="275">
-                    <button class="cart-total__btn">PROCEED TO CHECKOUT</button>
-                </div>
-            </div>
+            <button class="product-details__btn2">
+                <img class="product-details__img" src="./img/roseBasket.png" alt="roseBasket">
+                <span class="product-details-cart">Add to Cart</span>
+            </button>
+        </section>
+        <section class="product-offers">
+            <ul class="product-list">
+                <li class="recommendations__items product-4 product-list--padding">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-4" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-4" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-4.jpg" alt="product-4" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+                <li class="recommendations__items product-3 product-list--padding">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-3" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-3" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-3.jpg" alt="product-3" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+                <li class="recommendations__items product-6 product-list--padding">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-6" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-6" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-6.jpg" alt="product-6" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
     <footer>

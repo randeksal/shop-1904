@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <title>Index</title>
+    <title>Catalog</title>
 </head>
 <body>
     <header class="header">
@@ -16,13 +16,11 @@
             <div class="header__wrapper">
                 <div class="header__controls">
                     <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
-                    <a href="#"><img src="img/loupe.svg" alt="loupe" width="26" height="27"></a>
+                    <a href="index.html"><img src="img/loupe.svg" alt="loupe" width="26" height="27"></a>
                 </div>
                 <div class="header__controls">
                     <button class="header__button" type="button">
                         <img class="burger-img" src="img/burger.svg" alt="burger" width="32" height="23">
-
-
                         <nav class="header-navigation">
                             <h2 class="header-navigation__title header-navigation__padding-menu">MENU</h2>
                             <ul>
@@ -64,48 +62,74 @@
                 </div>
             </div>
         </div>
+        
     </header>
     <main>
-        <section class="brand">
-            <img src="img/man.jpg" alt="man" width="800" height="765">
-            <div class="brand__title-wrapper">
-                <h1 class="brand__title">the brand<span class="brand__subtitle">of luxerious <span class="brand__subtitle brand__subtitle-pink">fashion</span></span></h1>
+        <section class="header__line">
+            <h2 class="header__line-text container bread-crumbs_wrp">NEW ARRIVALS
+                <span class="bread-crumbs">
+                    <a class="bread-crumbs__text" href="index.html">HOME </a>
+                    <span class="bread-crumbs__text">/ </span>
+                    <a class="bread-crumbs__text" href="#">MEN </a>
+                    <span class="bread-crumbs__text">/ </span>
+                    <a class="bread-crumbs__text bread-crumbs__text-n" href="#">NEW ARRIVALS </a>
+                </span>
+            </h2>
+        </section>
+        <section class="catalog-filter container">
+            <div class="catalog-filter__titles">
+                <span class="catalog-filter__text">FILTER<img class="catalog-filter__title-img" src="./img/title-img-black.png" alt="title-img"></span>
+                <ul class="catalog-upline">
+                    <li class="catalog-upline__items">
+                        <p class="catalog-upline__items-titles">CATEGORY</p>
+                        <div class="catalog-subparagraphs">
+                            <span class="catalog-subparagraphs__text">Accessories</span>
+                            <span class="catalog-subparagraphs__text">Bags</span>
+                            <span class="catalog-subparagraphs__text">Denim</span>
+                            <span class="catalog-subparagraphs__text">Hoodies & Sweatshirts</span>
+                            <span class="catalog-subparagraphs__text">Jackets & Coats</span>
+                            <span class="catalog-subparagraphs__text">Polos</span>
+                            <span class="catalog-subparagraphs__text">Shirts</span>
+                            <span class="catalog-subparagraphs__text">Shoes</span>
+                            <span class="catalog-subparagraphs__text">Sweaters & Knits</span>
+                            <span class="catalog-subparagraphs__text">T-Shirts</span>
+                            <span class="catalog-subparagraphs__text">Tanks</span>
+                        </div>
+                    </li>
+                    <li class="catalog-upline__items catalog-upline__items-padding">
+                        <p class="catalog-upline__items-titles">BRAND</p>
+                    </li>
+                    <li class="catalog-upline__items">
+                        <p class="catalog-upline__items-titles">DESIGNER</p>
+                    </li>
+                </ul>
             </div>
+            <p class="catalog-filter__titles catalog-filter__titles-trending">TRENDING NOW</p>
+            <div class="catalog-filter__titles catalog-filter__titles-size">SIZE
+                <ul class="catalog-size">
+                    <li class="catalog-size__items">
+                        <button class="catalog-size__items-btn"></button>
+                        <span class="catalog-size__items-text">XS</span>
+                    </li>
+                    <li class="catalog-size__items">
+                        <button class="catalog-size__items-btn"></button>
+                        <span class="catalog-size__items-text">S</span>
+                    </li>
+                    <li class="catalog-size__items">
+                        <button class="catalog-size__items-btn"></button>
+                        <span class="catalog-size__items-text">M</span>
+                    </li>
+                    <li class="catalog-size__items">
+                        <button class="catalog-size__items-btn"></button>
+                        <span class="catalog-size__items-text">L</span>
+                    </li>
+                </ul>
+            </div>
+            <p class="catalog-filter__titles catalog-filter__titles-price">PRICE</p>
         </section>
-        <section class="offers container">
-            <h2 class="visually-hidden">Offers</h2>
-            <ul class="offers__list">
-                <li class="offers__item offers__item--women">
-                    <a class="offers__item--link" href="#">
-                        <p class="offers__item--text">30% off</p>
-                        <h3 class="offers__item--text offers__item--text--pink">for women</h3>
-                    </a>
-                </li>
-                <li class="offers__item offers__item--man">
-                    <a class="offers__item--link" href="#">
-                        <p class="offers__item--text">hot deal</p>
-                        <h3 class="offers__item--text offers__item--text--pink">for men</h3>
-                    </a>
-                </li>
-                <li class="offers__item offers__item--kids">
-                    <a class="offers__item--link" href="#">
-                    <p class="offers__item--text">NEW ARRIVALS</p>
-                    <h3 class="offers__item--text offers__item--text--pink">FOR KIDS</h3>
-                    </a>
-                </li>
-                <li class="offers__item offers__item--accesories">
-                    <a class="offers__item--link" href="#">
-                    <p class="offers__item--text">LUXIROUS & TRENDY</p>
-                    <h3 class="offers__item--text offers__item--text--pink">ACCESORIES</h3>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section class="recommendations container">
-            <h2 class="recommendations__title">Fetured Items</h2>
-            <p class="recommendations__subtitle">Shop for items based on what we featured in this week</p>
-            <ul class="recommendations__list">
-                <li class="recommendations__items product-1">
+        <section class="catalog container">
+            <ul class="catalog-list">
+                <li class="recommendations__items product-1 catalog-items catalog-item1">
                     <div class="recommendations__items--img--wrapper">
                         <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
                         <button class="recommendations__items--button  btn-product-1" type="button">
@@ -119,13 +143,13 @@
                         <p class="recommendations__items--price">$52.00</p>
                     </div>
                 </li>
-                <li class="recommendations__items product-2">
+                <li class="recommendations__items product-1 catalog-items catalog-item2">
                     <div class="recommendations__items--img--wrapper">
-                        <img class="recommendations__items--img--hover img-product-2" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
-                        <button class="recommendations__items--button  btn-product-2" type="button">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
                             <img src="img/basket.png" alt="basket" width="26" height="24">
                             <span class="recommendations__items--button-text">Add to Cart</span></button>
-                        <img class="recommendations__items--img" src="./img/product-2.jpg" alt="product-2" width="360" height="420">
+                        <img class="recommendations__items--img" src="./img/product-34.jpg" alt="product-34" width="360" height="420">
                     </div>
                     <div class="recommendations__items--wrapper">
                         <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
@@ -133,10 +157,10 @@
                         <p class="recommendations__items--price">$52.00</p>
                     </div>
                 </li>
-                <li class="recommendations__items product-3">
+                <li class="recommendations__items product-1 catalog-items catalog-item3">
                     <div class="recommendations__items--img--wrapper">
-                        <img class="recommendations__items--img--hover img-product-3" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
-                        <button class="recommendations__items--button  btn-product-3" type="button">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
                             <img src="img/basket.png" alt="basket" width="26" height="24">
                             <span class="recommendations__items--button-text">Add to Cart</span></button>
                         <img class="recommendations__items--img" src="./img/product-3.jpg" alt="product-3" width="360" height="420">
@@ -147,10 +171,10 @@
                         <p class="recommendations__items--price">$52.00</p>
                     </div>
                 </li>
-                <li class="recommendations__items product-4">
+                <li class="recommendations__items product-1 catalog-items catalog-item4">
                     <div class="recommendations__items--img--wrapper">
-                        <img class="recommendations__items--img--hover img-product-4" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
-                        <button class="recommendations__items--button  btn-product-4" type="button">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
                             <img src="img/basket.png" alt="basket" width="26" height="24">
                             <span class="recommendations__items--button-text">Add to Cart</span></button>
                         <img class="recommendations__items--img" src="./img/product-4.jpg" alt="product-4" width="360" height="420">
@@ -161,13 +185,13 @@
                         <p class="recommendations__items--price">$52.00</p>
                     </div>
                 </li>
-                <li class="recommendations__items product-5">
+                <li class="recommendations__items product-1 catalog-items catalog-item5">
                     <div class="recommendations__items--img--wrapper">
-                        <img class="recommendations__items--img--hover img-product-5" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
-                        <button class="recommendations__items--button  btn-product-5" type="button">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
                             <img src="img/basket.png" alt="basket" width="26" height="24">
                             <span class="recommendations__items--button-text">Add to Cart</span></button>
-                        <img class="recommendations__items--img" src="./img/product-5.jpg" alt="product-5" width="360" height="420">
+                        <img class="recommendations__items--img" src="./img/product-55.jpg" alt="product-5" width="360" height="420">
                     </div>
                     <div class="recommendations__items--wrapper">
                         <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
@@ -175,13 +199,55 @@
                         <p class="recommendations__items--price">$52.00</p>
                     </div>
                 </li>
-                <li class="recommendations__items product-6">
+                <li class="recommendations__items product-1 catalog-items catalog-item6">
                     <div class="recommendations__items--img--wrapper">
-                        <img class="recommendations__items--img--hover img-product-6" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
-                        <button class="recommendations__items--button  btn-product-6" type="button">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
                             <img src="img/basket.png" alt="basket" width="26" height="24">
                             <span class="recommendations__items--button-text">Add to Cart</span></button>
-                        <img class="recommendations__items--img" src="./img/product-6.jpg" alt="product-6" width="360" height="420">
+                        <img class="recommendations__items--img" src="./img/product-66.jpg" alt="product-66" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+                <li class="recommendations__items product-1 catalog-items catalog-item7">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-77.jpg" alt="product-77" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+                <li class="recommendations__items product-1 catalog-items catalog-item8">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-88.jpg" alt="product-88" width="360" height="420">
+                    </div>
+                    <div class="recommendations__items--wrapper">
+                        <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
+                        <p class="recommendations__items--text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="recommendations__items--price">$52.00</p>
+                    </div>
+                </li>
+                <li class="recommendations__items product-1 catalog-items catalog-item9">
+                    <div class="recommendations__items--img--wrapper">
+                        <img class="recommendations__items--img--hover img-product-1" src="./img/product-hover.png" alt="product-hover" width="360" height="420">
+                        <button class="recommendations__items--button  btn-product-1" type="button">
+                            <img src="img/basket.png" alt="basket" width="26" height="24">
+                            <span class="recommendations__items--button-text">Add to Cart</span></button>
+                        <img class="recommendations__items--img" src="./img/product-99.jpg" alt="product-99" width="360" height="420">
                     </div>
                     <div class="recommendations__items--wrapper">
                         <h3 class="recommendations__items--subtitle">ellery x m'o capsule</h3>
@@ -190,28 +256,21 @@
                     </div>
                 </li>
             </ul>
-            <a class="recommendations__button" href="#"><span>Browse All Product</span></a>
         </section>
-        <section class="advantages">
-            <h2 class="visually-hidden"></h2>
-            <ul class="advantages__list container">
-                <li class="advantages__items">
-                    <img class="advantages__items-img" src="img/advantages-car.png" alt="advantages-car">
-                    <h3 class="advantages__items-title">Free Delivery</h3>
-                    <p class="advantages__items-text">Worldwide delivery on all. Authorit tively morph<br> next-generation innov tion with extensive models.</p>
-                </li>
-                <li class="advantages__items">
-                    <img class="advantages__items-img" src="img/advantages-percent.png" alt="advantages-percent">
-                    <h3 class="advantages__items-title">Sales & discounts</h3>
-                    <p class="advantages__items-text">Worldwide delivery on all. Authorit tively morph<br> next-generation innov tion with extensive models.</p>
-                </li>
-                <li class="advantages__items">
-                    <img class="advantages__items-img" src="img/advantages-crown.png" alt="advantages-crown">
-                    <h3 class="advantages__items-title">Quality assurance</h3>
-                    <p class="advantages__items-text">Worldwide delivery on all. Authorit tively morph<br> next-generation innov tion with extensive models.</p>
-                </li>
-            </ul>
-        </section>
+        <div class="catalog-switcher__wrapper container">
+            <div class="catalog-switcher">
+                <button class="catalog-switcher__btn-l"><img src="./img/blackarrow-l.png" alt="blackarrow-l" width="8" height="14"></button>
+                <a class="catalog-switcher__links" href="#">1</a>
+                <a class="catalog-switcher__links" href="#">2</a>
+                <a class="catalog-switcher__links" href="#">3</a>
+                <a class="catalog-switcher__links" href="#">4</a>
+                <a class="catalog-switcher__links" href="#">5</a>
+                <a class="catalog-switcher__links" href="#">6</a>
+                <a class="catalog-switcher__links" href="#">...</a>
+                <a class="catalog-switcher__links" href="#">20</a>
+                <button class="catalog-switcher__btn-r"><img src="./img/blackarrow-r.png" alt="blackarrow-r" width="8" height="14"></button>
+            </div>
+        </div>
     </main>
     <footer>
         <section class="subscribe">
